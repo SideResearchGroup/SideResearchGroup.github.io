@@ -1,147 +1,146 @@
-<!doctype html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- Importante para habilitar os recursos de Responsividade em conjunto com o CSS -->
+<!DOCTYPE html>
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
 
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
 	<title>Side Research Group</title>
 
-	<script src="js/jquery-1.9.1.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/modernizr.js"></script>
-                 
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
 
-    <script type="text/javascript">
-    $(function(){
-    	$(‘.members).animate({ 
-    		“opacity” :.5
-    	});
-    	$(‘.members’).hover(function(){
-    		$(this).stop().animate({
-    			“opacity”:1 
-    		});
-    	}, function(){
-    		$(this).animate({“opacity”:.5});
-    	});
-    });
+	<link rel="stylesheet" href="css/foundation.css">
 
-    </script>
+	<script src="js/vendor/custom.modernizr.js"></script>
 
 </head>
 <body>
-	<div class="container-fluid header">
-	<div class="row-fluid">
-		<div class="span6">
-			<h3>SIDE RESEARCH GROUP</h3>
-		</div>
-		<div class="span2 offset4">
-			<br />
-			<i><a href="http://facebook.com/"><img src="img/face.png" width="32px"></a></i>
-			<i><a href="http://twitter.com/"><img src="img/twitter.png" width="32px"></a></i>
-			<i><a href="http://linkedin.com/"><img src="img/linkedin.png" width="32px"></a></i>
-		</div>
-	</div>
-</div>
-	<div class="container-fluid">
-		<div class="row-fluid">
-			<div id="nav" class="span2">
-	<ul class="nav nav-pills nav-stacked">
-		<li class="active"><a href="index.html">Home</a></li>
-		<li class="dropdown">
-			<a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects <b class="caret"></b></a>
-			<ul class="dropdown-menu">
-				<li><a href="#">SenseRDF</a></li>
-				<li><a href="#">Codi4In</a></li>
-				<li><a href="#">easyGO</a></li>
-			</ul>
-		</li>
-		<li><a href="members.html">Members</a></li>
-		<li><a href="publications.html">Publications</a></li>
-		<li><a href="#">Partnership</a></li>
-		<li><a href="#">Contact Us</a></li>
-	</ul>
-	</div>			
-		<div class="span9">
 
-			<h2 style="text-align:center;">SIDE - Semantics In Distributed Environments</h2>
-
-			<p style="text-align:justify;">
-				Welcome to the home page of the SIDE Research Group at the Federal Institute of Education, Science and Technology of Paraiba (IFPB), Brazil.
-			</p>
-
-			<p style="text-align:justify;">
-				SIDE hosts students and professors doing research in computer information management systems, with particular emphasis on databases and information systems in distributed environments. Related issues are: semantics usage, data distributed environments (e.g., PDMS, Web), query answering, semantic web (and, in particular, semantic data integration and linked data), geospatial information systems, context-aware systems, query personalization and others.
-			</p>
-
-			<p style="text-align:justify;">
-				By semantics, we mean the study or understanding of the meaning of certain elements that need to be interpreted in a given task or situation. For instance, we may need to interpret the elements surrounding a given user in order to identify his/her context when s/he submits a query. In this sense, we are especially interested in using semantic information in order to easy or improve processes such as query answering in distributed environments (e.g., the Web of Data, web applications, query personalization). 
-			</p>
-
-		</div>
+	<div class="row">
+		<div class="small-12 columns">
+			<div class="nav-bar right">
+				<ul class="button-group">
+					<li><a href="#" class="small button">Home</a></li>
+					<li><a href="#" class="small button">Members</a></li>
+					<li><a href="#" class="small button">Publications</a></li>
+					<li><a href="#" class="small button">Projects</a></li>
+					<li><a href="#" class="small button">Contact us</a></li>
+				</ul>
+			</div>
+			<h2>SIDE RESEARCH GROUP</h2>
+			<hr />
 		</div>
 	</div>
+
+	<div class="row">
+		<div class="small-12 columns">
+			<h3 class="text-center">SIDE – Semantics In Distributed Environments</h3>
+
+			<p class="text-justify">Welcome to the home page of the SIDE Research Group at the Federal Institute of Education, Science and Technology of Paraiba (IFPB), Brazil.</p>
+
+			<p class="text-justify">SIDE hosts students and professors doing research in computer information management systems, with particular emphasis on databases and information systems in distributed environments. Related issues are: semantics usage, data distributed environments (e.g., PDMS, Web), query answering, semantic web (and, in particular, semantic data integration and linked data), geospatial information systems, context-aware systems, query personalization and others.</p>
+
+			<p class="text-justify">By semantics, we mean the study or understanding of the meaning of certain elements that need to be interpreted in a given task or situation. For instance, we may need to interpret the elements surrounding a given user in order to identify his/her context when s/he submits a query. In this sense, we are especially interested in using semantic information in order to easy or improve processes such as query answering in distributed environments (e.g., the Web of Data, web applications, query personalization).</p>
+		</div>
+	</div>
+
 	
-	<div class="container-fluid">
-		<div class="row-fluid">
-			<div class="span9 offset2 title">
-				<h3>Projects</h3>
-			</div>
+	<div class="row">
+		<div class="large-12 columns">
+			<h3 class="text-center">Projects</h3>
+			<br>
+
+			<ul class="small-block-grid-3 text-justify">
+				<li>
+					<h3>Codi4In <br><small>and Apps</small></h3>
+					<p>Context may be defined as a set of elements surrounding a domain entity of interest (e.g., user or query), which is considered relevant in a specific situation during some time interval. This work addresses the issue of personalizing...</p>
+					<a href="#" class="small radius secondary button">Learn more »</a>
+				</li>
+				<li>
+				<h3>LDTA <br><small>Linked Data Tools and Applications</small></h3>
+					<p>Semantic Web technologies are around now for a while. In the context of the Semantic Web, the term Linked Data refers to a set of best practices for publishing and connecting structured data on the Web. In this light, the goal of this project is to...</p>
+					<a href="#" class="small radius secondary button">Learn more »</a>
+				</li>
+				<li>
+					<h3 class="text-left">GeoDatA <br><small>Geographic Data Access</small></h3>
+					<p>In a PDMS setting, this project provides access to geographic databases by means of ontologies. To this end, it has developed a tool, named easeGO, which provides access to a geographic database using an ontology as a middle layer between the...</p>
+					<a href="#" class="small radius secondary button">Learn more »</a>
+				</li>
+			</ul>
 		</div>
 	</div>
+		
+	<footer class="row">
+		<div class="large-12 columns">
+			<hr>
+			<div class="row">
+				<div class="large-6 columns">
+					<p>© Copyright Side Research Group</p>
+				</div>
 
-	<div class="container-fluid">
-		<div class="row-fluid">
-			<div class="span3 offset2 project">
-				<h2>CODI4In and Apps</h2>
-				<p style="text-align: justify;">
-					Context may be defined as a set of elements surrounding a domain entity of interest (e.g., user or query), which is considered relevant in a specific situation during some time interval. This work addresses the issue of personalizing query results taking into account the user context. To this end, it has been developing the CODI4In service, which provides the management of user contexts. The CODI4In may be coupled to...
-				</p>
-				<p>
-					<a href="#" class="btn btn-primary">Learn more »</a>
-				</p>
-			</div>
+				<div class="large-6 columns">
+					<ul class="inline-list right">
+						<li>
+							<a href="#"><img src="img/face.png" width="32px" alt="Facebook"></a>
+						</li>
 
-			<div class="span3 project">
-				<h2>LDTA - Linked Data Tools and Applications</h2>
-				<p style="text-align: justify;">
-					Semantic Web technologies are around now for a while. In the context of the Semantic Web, the term Linked Data refers to a set of best practices for publishing and connecting structured data on the Web. In this light, the goal of this project is to...
-				</p>
-				<p>
-					<a href="#" class="btn btn-primary">Learn more »</a>
-				</p>
-			</div>
+						<li>
+							<a href="#"><img src="img/twitter.png" width="32px" alt="Twitter"></a>
+						</li>
 
-			<div class="span3 project">
-				<h2>GeoDatA - Geographic Data Access</h2>
-				<p style="text-align: justify;">
-					In a PDMS setting, this project provides access to geographic databases by means of ontologies. To this end, it has developed a tool, named easeGO, which provides access to a geographic database using an ontology as a middle layer between the...
-				</p>
-				<p>
-					<a href="#" class="btn btn-primary">Learn more »</a>
-				</p>
+						<li>
+							<a href="#"><img src="img/linkedin.png" width="32px" alt="LinkedIn"></a>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</div>
-	</div>
+	</footer>
 
+	<script>
+		document.write('<script src=' +
+			('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
+			'.js><\/script>')
+	</script>
 
+	<script src="js/foundation.min.js"></script>
+  <!--
+  
+  <script src="js/foundation/foundation.js"></script>
+  
+  <script src="js/foundation/foundation.interchange.js"></script>
+  
+  <script src="js/foundation/foundation.abide.js"></script>
+  
+  <script src="js/foundation/foundation.dropdown.js"></script>
+  
+  <script src="js/foundation/foundation.placeholder.js"></script>
+  
+  <script src="js/foundation/foundation.forms.js"></script>
+  
+  <script src="js/foundation/foundation.alerts.js"></script>
+  
+  <script src="js/foundation/foundation.magellan.js"></script>
+  
+  <script src="js/foundation/foundation.reveal.js"></script>
+  
+  <script src="js/foundation/foundation.tooltips.js"></script>
+  
+  <script src="js/foundation/foundation.clearing.js"></script>
+  
+  <script src="js/foundation/foundation.cookie.js"></script>
+  
+  <script src="js/foundation/foundation.joyride.js"></script>
+  
+  <script src="js/foundation/foundation.orbit.js"></script>
+  
+  <script src="js/foundation/foundation.section.js"></script>
+  
+  <script src="js/foundation/foundation.topbar.js"></script>
+  
+-->
 
-	<div class="container-fluid footer">
-	<div class="row-fluid">
-		<div class="span6">
-			<h4>IFPB</h4>
-		</div>
-		<div class="span3 offset3">
-			<br />
-			<p>&copy; Copyright Side Research Group</p>
-		</div>
-	</div>
-	</div>
+<script>
+	$(document).foundation();
+</script>
 </body>
 </html>
-<!-- Hosting24 Analytics Code -->
-<script type="text/javascript" src="http://stats.hosting24.com/count.php"></script>
-<!-- End Of Analytics Code -->
