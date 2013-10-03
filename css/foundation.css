@@ -19,7 +19,18 @@ meta.foundation-mq-large {
 
 html,
 body {
-  font-size: 100%; }
+  font-size: 100%; height: 100%; }
+
+.wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -100px;
+}
+
+footer, .push{
+  height: 100px;
+}
 
 body {
   background: white;
