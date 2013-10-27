@@ -1,0 +1,51 @@
+<research_group>
+    <members>
+        <member>
+            <first_name>Ayrton</first_name>
+            <last_name>Nadgel</last_name>
+            <email>ayrtonnadgel@gmail.com</email>
+            <picture>http://www.gravatar.com/avatar/ecfd42b0d095e6e833cc0f90631012e3.png</picture>
+        </member>
+        <member>
+            <first_name>Amanda</first_name>
+            <last_name>Lopes</last_name>
+            <email>amandalops00@gmail.com</email>
+            <picture>http://0.gravatar.com/avatar/4864db48e0a73829dab3e9314082790e</picture>
+        </member>
+        <member>
+            <first_name>Bruno</first_name>
+            <last_name>Paulino</last_name>
+            <email>brunojppb@gmail.com</email>
+            <picture>http://pt.gravatar.com/userimage/37134989/8369c0041e99a37eca942c0b5e7f7dd3.jpg</picture>
+            <bio>
+                Bruno Paulino is an undergraduate student at the Federal Institute of Education, Science and Technology of Paraíba (IFPB), Brazil. He is also a member of a research project at IFPB. His main research interests regard Semantic Web and Linked Data.
+            </bio>
+        </member>
+        <member>
+            <first_name>Damires</first_name>
+            <email>damires@ifpb.edu.br</email>
+            <picture>http://1.gravatar.com/avatar/e32531e92a34c9b33974e58155548ead</picture>
+            <bio>
+                Professor Damires Souza obtained her PhD (doctorate) in Computer Science from the Federal University of Pernambuco (UFPE), Brazil. She is currently an Associate Professor at the Federal Institute of Education, Science and Technology of Paraiba (IFPB), Brazil. She is also the coordinator of some research projects at IFPB. Her main research interests are concerned with the areas of databases and semantic web.
+            </bio>
+        </member>
+        <member>
+            <first_name>Daniela</first_name>
+            <email>daniela.pdj@gmail.com</email>
+            <picture>http://www.gravatar.com/avatar/5a8486d8290de447860fc61d6aa6feba.png</picture>
+        </member>
+        <member>
+            <first_name>Luiz</first_name>
+            <last_name>Carlos</last_name>
+            <email>luiz.chaves@ifpb.edu.br</email>
+            <picture>http://2.gravatar.com/avatar/8504878872abcc70fe8e82e2fe1ce9f3</picture>
+            <bio>
+                Professor of Federal Institute of Education, Science and Technology of Paraiba (IFPB) and has skill in science computer, with a emphasis on web development, mobile development and content delivery network.
+            </bio>
+        </member>
+        <member>
+            <first_name>Livio</first_name>
+            <email>Livioribeiro@gmail.com</email>
+        </member>
+    </members>
+</research_group>
