@@ -1,0 +1,20 @@
+{
+	members: [
+		{name: "Evandro Macedo", email: "evandro.hcm@gmail.com"},
+		{name: "Ayrton Nadgel", email: "ayrtonnadgel@gmail.com"},
+		{name: "Amanda Lopes", email: "amandalops00@gmail.com"},
+		{name: "Damires Souza", email: "damires@ifpb.edu.br"},
+		{name: "Daniela Pitta", email: "daniela.pdj@gmail.com"},
+		{name: "Luiz Carlos", email: "luiz.chaves@ifpb.edu.br"},
+		{name: "Claucio Sousa", email: ""},
+		{name: "Geilson Santos", email: ""},
+		{name: "Marcelo Dudk", email: ""},
+		{name: "Wandesson Soares", email: ""},
+		{name: "Thyago", email: ""}
+	],
+
+	ex-members: [
+		{name: "Bruno Paulino", email: "brunojppb@gmail.com"},
+		{name: "Livio Ribeiro", email: "livioribeiro@gmail.com"}
+	]
+}

@@ -11,7 +11,7 @@
 	<link rel="stylesheet" href="css/foundation.css">
 
 	<script src="js/vendor/custom.modernizr.js"></script>
-
+	<script src="http//code.jquery.com/jquery-1.10.2.min.js"></script>
 </head>
 <body>
 	<div class="wrapper">
@@ -187,6 +187,12 @@
 		document.write('<script src=' +
 			('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
 			'.js><\/script>')
+	</script>
+	<script>
+		// ul.small-block-grid-3>li.members>img+p>(strong+br+)
+		$.getJSON( "members.json", function( data ) {
+			console.log(data);
+		});
 	</script>
 
 	<script src="js/foundation.min.js"></script>
